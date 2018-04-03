@@ -1,0 +1,9 @@
+﻿  stdafx.cpp
+  jim_nvml.cpp
+jim_nvml.obj : error LNK2019: unresolved external symbol _nvmlInit_v2 referenced in function _main
+jim_nvml.obj : error LNK2019: unresolved external symbol _nvmlShutdown referenced in function _main
+jim_nvml.obj : error LNK2019: unresolved external symbol _nvmlErrorString referenced in function _main
+jim_nvml.obj : error LNK2019: unresolved external symbol _nvmlDeviceGetHandleByIndex_v2 referenced in function _main
+jim_nvml.obj : error LNK2019: unresolved external symbol _nvmlDeviceGetTemperature referenced in function _main
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\lib\x64\nvml.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+c:\users\jekei\documents\visual studio 2017\Projects\jim_nvml\Debug\jim_nvml.exe : fatal error LNK1120: 5 unresolved externals
